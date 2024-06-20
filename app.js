@@ -118,7 +118,7 @@ app.post('/api/search', async (req, res) => {
     request({
         'url':url,
         'method': "GET",
-        'proxy':`http://brd-customer-hl_7365483f-zone-datacenter_proxy1-country-${location}:oq53nk4imw9m@brd.superproxy.io:22225`
+        'proxy':`http://brd-customer-hl_cac6169b-zone-datacenter_proxy1-country-${location}:pj4qw7h1fe14@brd.superproxy.io:22225`
       },function (error, response, body) {
         if (error) {
             res.send(error)
